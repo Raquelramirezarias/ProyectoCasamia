@@ -248,7 +248,6 @@ color:green;
        max-width: 100%;
        border-radius: 1rem;
    }
-   
    /*footer*/
    .copyright{
     display: flex;
@@ -314,6 +313,9 @@ color:green;
            width: 100%;
            padding: 1rem;
           
+       }
+       .imagenes-grid{
+        grid-template-columns: 1fr 1fr;
        }
        .navbar-toggler{
            padding:0;
