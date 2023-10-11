@@ -117,6 +117,9 @@ color:green;
        display: block;
        
    }
+   .texto-diseño{
+    font-family: 'Times New Roman', Times, serif;
+   }
 
    .vermas{
        font-weight: 50;
