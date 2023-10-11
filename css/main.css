@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+   }
+   /*barra menu*/
+   .logo{
+    width: 100%;
+}
+.navbar-brand{
+ width: 100px;   
+}
+
+.nav-item{
+    display: flex;
+   
+}
+
+.menu-link{
+    text-decoration: none;
+    color:black;  
+    padding:1px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.navbar-collapse{
+
+margin: 0;
+padding: 0;
+justify-content: end;
+}
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 160%;
+}
+.menu-link:hover{
+
+background-color:white;
+color:green;
+}
+.encabezados{
+    position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding: 1px;
+        background-color:#fff;
+        box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+    }
+    .navbar-nav{
+        display: flex;
+    }
+
+.logo-casa{
+    text-decoration: none;
+    color: black;
+}
+   
+   .casa-mia{
+       text-decoration: none;
+       color: black;
+       font-size:200%;
+       font-family: 'Times New Roman', Times, serif;
+   }
+   .parrafo-1{
+       text-align: justify;
+       padding: 1rem;
+       margin: 0;
+       display: flex;
+   }
+   .parrafo-2{
+       display: flex;
+       text-align: justify;
+       padding: 1rem;
+       margin: 0;
+   }
+   .parrafo-3{
+       display: flex;
+       text-align: justify;
+       padding: 1rem;
+       margin: 0;
+   }
+   .parrafo-4{
+       display: flex;
+       text-align: justify;
+       padding: 1rem;
+       
+   }
+   .items{
+      
+      
+       font-size: 4rem;
+       color: rgb(10, 10, 10);   
+      text-align: center;
+      padding: 5rem;
+   }
+   .container-fluid{
+       display: flex;
+       align-items: center;
+       height: 40px;
+       background-color:white;
+   }
+   .nav-barra{
+    color: white;
+    background: none;
+    
+    font-size: 30px;
+    display: none;
+    line-height: 60px;
+    padding: 0 20px;
+}
+   
+   .images{
+       width: 85%;
+       margin:auto;
+       display: block;
+       
+   }
+
+   .vermas{
+       font-weight: 50;
+       width: 399px;
+       margin: 60px auto 0;
+       font-size: 200%; 
+   }
+   .ver-link{
+    text-decoration: none;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 12px;
+       padding: 10px;  
+       border-color:white;
+       background-color: white;
+   }
+   .ver-link:hover{
+    background-color:black;
+    color: white;
+    
+   }
+   .boton-ver:hover{
+       background-color:rgb(236, 201, 148);
+   }
+   .sobre-nosotros{
+   text-align: center;
+   font-weight: 100;
+   font-size: 80px;  
+   font-family: 'Times New Roman', Times, serif;
+      }
+    
+   
+   .formulario{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 20px;
+       flex-grow: 1; 
+   }
+   .value{
+       background-color: beige;   
+       border-color: white; 
+   
+   }
+   .value:hover{
+       background-color: rgb(236, 201, 148);
+   }
+   
+   .cuadros{
+       display: flex;
+       padding: 60px;
+       gap: 30px;   
+       
+   }
+   .cuadro1{
+    
+   display: flex;
+   border-radius: 0%;
+   overflow: hidden;
+   background-color: beige;
+   flex-direction: column;
+   gap: 10px;
+   }
+   .cuadritos{
+       width: 100%;
+       padding: 1px;
+   }
+   .boton-link{
+   text-decoration: none;
+   background-color:white;
+   border-color: beige;
+   
+   }
+   .boton-precio{
+       background-color: beige;
+       border-color: beige;
+   }
+   .boton-precio:hover{
+   
+   background-color: rgb(236, 201, 148);
+   }
+   .opciones{
+       background-color: beige;
+       border-color: beige;
+   }
+   
+   .cuadros-1{
+       display: flex;
+       padding: 60px;
+       gap: 30px;   
+       flex: 1;
+   }
+   .cuadro2{
+    
+   display: flex;
+   border-radius: 0%;
+   background-color: beige;
+   flex-direction: column;
+   gap: 1px;
+   flex:1;
+   }
+   .cuadro3{
+       padding-inline: 20px;
+   }
+   .cuadrito{
+       width: 100%;
+       flex:1;
+       margin: 0;
+       padding: 0;
+       grid-column: 10%;  
+   }
+   .pie-pagina{
+       margin-top: 3%;
+       background-color:rgb(245, 245, 200);
+       padding: 1rem;
+       
+   }
+   .imagenes-grid{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr );
+   gap: 1rem;
+   
+   }
+   .imagen-grid{
+       max-width: 100%;
+       border-radius: 1rem;
+   }
+   
+   /*footer*/
+   .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 20px;
+}
+.sociales{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: black;
+    bottom: 2rem;
+    padding: 1rem;
+    right: 2rem;
+    gap: 1rem;
+    border-radius: 1rem;
+
+}
+
+.sociales-link{
+    font-size: 1rem;
+    transition: .5s;
+
+}
+.sociales-link:hover{
+    transform: scale(1.5);
+}
+
+   
+   @media screen and (max-width:480px){ 
+       .sobre-nosotros{
+           font-size: 300%;
+       }
+       .parrafo-1{
+           text-align: justify;
+           padding: 1rem;
+           margin: 0;
+           display: flex;
+           font-size: 95%;
+       }
+       .parrafo-2{
+           display: flex;
+           text-align: justify;
+           padding: 1rem;
+           margin: 0;
+           font-size: 95%;
+       }
+       .parrafo-3{
+           display: flex;
+           text-align: justify;
+           padding: 1rem;
+           margin: 0;
+           font-size: 95%;
+       }
+       .parrafo-4{
+           display: flex;
+           text-align: justify;
+           padding: 1rem;
+           font-size: 95%;
+       }
+       .images{
+           width: 100%;
+           padding: 1rem;
+          
+       }
+       .navbar-toggler{
+           padding:0;
+           display: flex;
+           height:65%;
+           border-color:white;
+       }
+      
+       .navbar-toggler-icon{
+           height: 100%;
+       }
+      
+       .cuadros{
+       flex-direction: column;
+       padding: 2rem;
+       }
+       .navbar-brand{
+           width: 60px;
+       }
+       .navbar-nav{
+       flex-direction: column;
+       bottom: 0;
+       }
+       .navbar-collapse{
+           position: absolute;
+           top: 0;
+           right:0;
+           padding: 5px;
+           background-color:black;
+           border-radius: 5px;  
+       }
+       .menu-link{
+           color: white;
+           height: 35px;
+       }
+       .navbar-collapse{
+           top: 101%;
+       }
+       .menu-link:hover{
+           background-color:white;
+           color: black;
+           border-radius: 5px;
+           padding: 0;
+           height: 10%;
+       }
+   
+   .cuadros-1{
+       flex-direction: column;
+       padding: 2rem;
+       
+   }
+   .servicios{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       padding: 1rem;
+       }
+   
+       .copyright{
+           height: 1px;
+       }
+   
+   }
+   
