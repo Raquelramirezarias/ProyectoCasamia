@@ -173,12 +173,11 @@ color:green;
    .value{
        background-color: beige;   
        border-color: white; 
-   
    }
    .value:hover{
-       background-color: rgb(236, 201, 148);
+       background-color:black;
+       color: white;
    }
-   
    .cuadros{
        display: flex;
        padding: 60px;
@@ -197,18 +196,15 @@ color:green;
    }
    .cuadritos{
        width: 100%;
-       padding: 1px;
-     transition: all 300ms;
- position: relative;
- cursor: pointer;
- }
- .cuadritos:hover{
-     transform: scale(1.1); 
- }
+       padding: 1px;}
    .boton-link{
    text-decoration: none;
    background-color:white;
    border-color: beige;
+   }
+   .boton-link:hover{
+    background-color: black;
+    color: white;
    }
    .boton-precio{
        background-color: beige;
@@ -267,18 +263,8 @@ color:green;
 
    .imagen-grid{
        max-width: 100%;
-       border-radius: 1rem;
-    transition: all 300ms;
-position: relative;
-cursor: pointer;
-}
-
-.imagen-grid:hover{
-    transform: scale(1.1);
-    
-}
-
-   .textos{
+       border-radius: 1rem;}
+.textos{
     font-style: normal;
    }
    .Nombre{
