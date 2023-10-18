@@ -63,6 +63,14 @@ color:green;
        font-size:200%;
        font-family: 'Times New Roman', Times, serif;
    }
+   .container{
+    font-style: italic;
+
+   }
+   .texto{
+    font-style: italic;
+    
+   }
    .parrafo-1{
        text-align: justify;
        padding: 1rem;
@@ -87,13 +95,16 @@ color:green;
        padding: 1rem;
        
    }
-   .items{
-      
-      
+   .items{ 
        font-size: 4rem;
        color: rgb(10, 10, 10);   
       text-align: center;
       padding: 5rem;
+      font-weight: bold;
+   }
+   .item{
+    font-family: "Montserrat", sans-serif;
+    margin: 10px;
    }
    .container-fluid{
        display: flex;
@@ -242,11 +253,20 @@ color:green;
    display: grid;
    grid-template-columns: repeat(3, 1fr );
    gap: 1rem;
+   margin:5px;
+   padding: 0;
    
    }
    .imagen-grid{
        max-width: 100%;
        border-radius: 1rem;
+
+   }
+   .textos{
+    font-style: normal;
+   }
+   .Nombre{
+    font-family: "Montserrat", sans-serif;;
    }
    /*footer*/
    .copyright{
