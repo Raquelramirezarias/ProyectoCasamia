@@ -126,9 +126,8 @@ color:green;
        width: 85%;
        margin:auto;
        display: block;
-       
    }
-   .texto-diseño{
+.texto-diseño{
     font-family: 'Times New Roman', Times, serif;
    }
 
@@ -194,16 +193,22 @@ color:green;
    background-color: beige;
    flex-direction: column;
    gap: 10px;
+   
    }
    .cuadritos{
        width: 100%;
        padding: 1px;
-   }
+     transition: all 300ms;
+ position: relative;
+ cursor: pointer;
+ }
+ .cuadritos:hover{
+     transform: scale(1.1); 
+ }
    .boton-link{
    text-decoration: none;
    background-color:white;
    border-color: beige;
-   
    }
    .boton-precio{
        background-color: beige;
@@ -250,18 +255,29 @@ color:green;
        
    }
    .imagenes-grid{
+    width: 100%;
    display: grid;
    grid-template-columns: repeat(3, 1fr );
    gap: 1rem;
    margin:5px;
-   padding: 0;
+   padding: 5px;
+   grid-gap: 25px;
    
    }
+
    .imagen-grid{
        max-width: 100%;
        border-radius: 1rem;
+    transition: all 300ms;
+position: relative;
+cursor: pointer;
+}
 
-   }
+.imagen-grid:hover{
+    transform: scale(1.1);
+    
+}
+
    .textos{
     font-style: normal;
    }
