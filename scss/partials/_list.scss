@@ -1,0 +1,21 @@
+.navbar-nav {
+    display: flex;
+
+    .nav-item {
+        display: flex;
+    }
+    .menu-link {
+        text-decoration: none;
+        color: $colorPimer;
+        padding: 1px;
+        margin: 0;
+        font-family:$tipografiaPrimer;
+        &:hover {
+            background-color:$colorPrincipal;
+            color: $colorPimer;
+            
+        }
+    }
+  
+    
+  }

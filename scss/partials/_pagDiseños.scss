@@ -1,0 +1,28 @@
+.items {
+    font-size: 4rem;
+    color:$colorPimer;
+    text-align: center;
+    padding: 5rem;
+    font-weight: bold;
+
+    .texto {
+        font-style:$tipografiaGeneral;
+    }
+    .item {
+        font-family:$tipografiaPrimer;
+        margin: 10px;}
+    
+    .imagenes-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        margin: 5px;
+        padding: 5px;
+        grid-gap: 25px;
+            }
+        .imagen-grid {
+            max-width: 100%;
+            border-radius: 1rem;
+            }
+        }    

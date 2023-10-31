@@ -1,0 +1,40 @@
+.encabezados {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 1px;
+    background-color:$colorPrincipal;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+    .logo {
+        width: 100%;
+      }
+    .container-fluid {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        background-color:$colorPrincipal;
+    }
+    .navbar-brand{
+        width: 100px;
+        font-family:$tipografiaPrimer;
+        font-size: 160%;
+    }
+    .casa-mia {
+        text-decoration: none;
+        color:$colorPimer;
+        font-size: 200%;
+        font-family:$tipografiaPrimer;
+    }
+    .navbar-collapse {
+        margin: 0;
+        padding: 0;
+        justify-content: end;
+    }
+    .images {
+        width: 85%;
+        margin: auto;
+        display: block;
+  }
+ }
+  

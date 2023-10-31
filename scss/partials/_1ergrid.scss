@@ -1,0 +1,31 @@
+.cuadros {
+    display: flex;
+    padding: 60px;
+    gap: 30px;
+  
+    .cuadro1 {
+  
+        display: flex;
+        border-radius: 0%;
+        overflow: hidden;
+        background-color: $colorSengundo;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cuadritos {
+        width: 100%;
+        padding: 1px;
+    }
+    .texto-diseño {
+        font-family:$tipografiaPrimer;}
+      .boton-link {
+        text-decoration: none;
+        background-color:$colorPrincipal;
+        border-color:$colorPimer;
+      }
+      .boton-link:hover {
+        background-color:$colorPimer;
+        color:$colorPrincipal;
+      }
+      }
+  

@@ -1,0 +1,32 @@
+.items {
+    font-size: 4rem;
+    color:$colorPimer;
+    text-align: center;
+    padding: 5rem;
+    font-weight: bold;
+    .cuadros-1 {
+        display: flex;
+        padding: 60px;
+        gap:2rem;
+        flex: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+        .formulario {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            flex-grow: 1;}
+            .value {
+                background-color: $colorSengundo;
+                border-color:$colorPrincipal;
+                &:hover {
+                    background-color:$colorPrincipal;
+                    color:$colorPimer;
+                    
+                }
+            }
+            
+       }
