@@ -1,0 +1,153 @@
+/*media query*/
+@media screen and (max-width: 480px) {
+	.sobre-nosotros {
+	  font-size: 300%;
+	}
+	.parrafo-1 {
+	  text-align: justify;
+	  padding: 1rem;
+	  margin: 0;
+	  display: flex;
+	  font-size: 95%;
+	  font-family: $tipografiaGeneral
+	}
+	.parrafo-2 {
+	  display: flex;
+	  text-align: justify;
+	  padding: 1rem;
+	  margin: 0;
+	  font-size: 95%;
+	  font-family: $tipografiaGeneral;
+	}
+	.parrafo-3 {
+	  display: flex;
+	  text-align: justify;
+	  padding: 1rem;
+	  margin: 0;
+	  font-size: 95%;
+	  font-family: $tipografiaGeneral;
+	}
+	.parrafo-4 {
+	  display: flex;
+	  text-align: justify;
+	  padding: 1rem;
+	  font-size: 95%;
+	  font-family: $tipografiaGeneral;
+	}
+	.images {
+	  width: 100%;
+	  padding: 1rem;
+	}
+	.imagen-logo {
+		width: 100%;
+	}
+	.encabezados .casa-mia {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0;
+	}
+	.encabezados .logo{
+		width: 20%;
+		 position: absolute;
+		 margin-top: -45px;
+	}
+
+	.cuadros .boton-link {
+		border-color:$colorSengundo;
+	}
+	.navbar-toggler {
+	  padding: 0;
+	  display: flex;
+	  height: 65%;
+	  border-color:$colorPrincipal;
+	}
+	.navbar-toggler-icon {
+	  height: 100%;
+	}
+	.cuadros {
+	  flex-direction: column;
+	  padding: 2rem;
+	}
+	.navbar-brand {
+	  width: 60px;
+	}
+	.navbar-nav {
+	  flex-direction: column;
+	  bottom: 0;
+	}
+	.navbar-collapse {
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  padding: 5px;
+	  background-color:$colorPimer;
+	  border-radius: 5px;
+	  &:hover{
+		color:$colorPrincipal;
+	  }
+	}
+
+	.navbar-nav .menu-link{
+		color: $colorPrincipal;
+		padding: 1px;
+		margin: 5.5px;
+
+		&:hover{
+			color: $colorPimer;
+			border-radius: 5px;
+		}
+	}
+	
+	.imagenes-grid {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 15px;
+		gap: 1rem;
+		grid-gap: 1rem;
+	  }
+	  .imagenes-grid .imagen-grid {
+		width: 100%;
+		border-radius: 1rem;
+	  }
+	.navbar-collapse {
+	  top: 101%;
+	}
+	}
+	.items{
+		color: $colorPimer;
+		font-size: 4rem;
+		text-align: center;
+		padding: 5rem;
+		font-weight: bold;
+	}
+		.container{
+			.texto{
+				margin: 10px;}
+		}
+	.cuadros-1 {
+	  padding: 2rem;
+	  gap: 1rem;
+	  display: grid;
+	  grid-template-columns: 1fr;
+	  
+	  .cuadro2 {
+		display: flex;
+		border-radius: 0%;
+		background-color:$colorSengundo;
+	   flex-direction: column;
+	   gap: 1px;
+	   flex: 1;
+   }
+	  }
+
+	.servicios {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+	  padding: 1rem;
+	}
+	.copyright {
+	  height: 1px;
+	}
+  
