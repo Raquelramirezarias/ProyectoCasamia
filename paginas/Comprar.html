@@ -1,21 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comprar</title>
+    <title>Comprar | Productos para el hogar | Casa Mia</title>
     <link rel="shortcut icon" href="../imagenes/loguito.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-   <link rel="stylesheet" href="../css/main.css">
+   <meta name="description" content="En nuestra empresa Casa Mia además de ofrecer nuestros servicios también,ofrecemos productos que usted puede adquirir,solo entra en nuestra pagina y ve a la sección de comprar y elige el producto y consulta el precio.
+   Compra nuestros productos destacados en la pagina ,cortinas standard en stock cortinas a medida excelente calidad,de seda ,que convinara con cualquier hambiente, mesas redondas de porcelanato perfecto para un ambiente moderno y mesas de madera para un ambiente calido, pisos flotantes,de cerámicas y muchos mas.
+   Tenemos los mejores productos, buena calidad y a mejor precio, con garantía y sin intereses, tenemos todos los medios de pago, ya sea transferencia, efectivo, tarjeta de débito y crédito, tenemos descuento abonando en efectivo, las compras son seguras, comunícate con nosotros para seguir los pasos para la compra y entrega y cuando ya se haya efectuado el pago se enviara el comprobando de pago por mail, con código y seguimiento de su producto. 
+   Si quiere realizar algún cambio, puede contactarnos. Algunos productos son importados, y tienen diferentes costos e instalacioines. 
+   ">
+   <meta name="keywords" content="Mesa redonda, cortina blanca, marrones, piso porcelanato, cerámica, parquet flotantes, madera, productos para casas importados, nacionales, equipamiento de hogar">
+   <link rel="stylesheet" href="../scss/main.css">
+
+   
+   
+
+
+
+
 </head>
 <body>
      <!--Empieza barra de manu-->
      <header class="encabezados">
         <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html"><img src="../imagenes/loguito.png" class="logo"""></a>
+              <a class="navbar-brand" href="../index.html"><img src="../imagenes/loguito.png" alt="imagen de logo" class="logo"""></a>
               <div class="nombre-logo">
     <a href="../index.html" class="casa-mia">Casa Mia</a>
               </div>
@@ -45,7 +58,6 @@
                   <li class="nav-item">
                     <a class="nav-link"><a href="./Contacto.html" class="menu-link">Contacto</a></a>
                   </li>
-                
                 </ul>
               </div>
             </div>
@@ -53,49 +65,47 @@
         </header>
         <!--Termina barra de menu-->
 <!--Empieza comprar-->
+<section class="encabezado">
 <h1 class="items">Comprar</h1>
-<section class="cuadros-1">
-    <div class="cuadro2">
-        <img src="../imagenes/cortinas.jpg" alt="" class="cuadrito">
-    
+</section>
+<section class="cuadros-grid">
+    <div class="cuadro-grid">
+        <img src="../imagenes/cortinasblancas.jpg" alt="imagen de cortinas blancas" class="cuadrito">
     <div>
     <select class="opciones">
         <option value="">Cortina blanca</option>
         <option value="">Cortina marron</option>
     </select>
     <div>
-        <a href="../paginas/Contacto.html" class="boton-consulta"><button type="button" class="boton-precio">Consultar precio</button></a>
+        <a href="../paginas/Contacto.html" class="boton-consulta" target="_blank" class="boton-precio">Consultar precio</a>
     </div>
 </div>
 </div>
-<div class="cuadro2">
-<img src="../imagenes/mesa.jpg" alt="" class="cuadrito">
+<div class="cuadro-grid">
+<img src="../imagenes/mesa.jpg" alt="imagen de mesa redonda" class="cuadrito">
 <div>
-<select class="opcioines">
+<select class="opciones">
     <option value="">Mesa marmol</option>
     <option value="">Mesa madera</option>
 </select>
 <div>
-<a href="../paginas/Contacto.html" class="boton-consulta"><button type="button" class="boton-precio">Consultar precio</button></a>
+<a href="../paginas/Contacto.html" class="boton-consulta" target="_blank" class="boton-precio">Consultar precio</a>
 </div>
 </div>
 </div>
-<div class="cuadro2">
-    <img src="../imagenes/pisos.jpg" alt="" class="cuadrito">
+<div class="cuadro-grid">
+    <img src="../imagenes/piso.jpg" alt="imagen de piso " class="cuadrito">
 <div>
     <select class="opciones">
         <option value="">Piso porcelanato</option>
         <option value="">Piso flotante</option>
     </select>
     <div>
-<a href="../paginas/Contacto.html" class="boton-consulta"><button type="button" class="boton-precio">Consultar precio</button></a>
+<a href="../paginas/Contacto.html" class="boton-consulta" target="_blank" class="boton-precio">Consultar precio</a>
     </div>
 </div>
 </div>
 </section>
-
-
-
 <!--Termina comprar-->
     <!--Empieza footer-->
     <footer class="pie-pagina">
@@ -107,12 +117,12 @@
                 <a class="sociales-link" href="https://whatsapp.com" target="_blank">
                     <i class="bi bi-whatsapp"></i>
                 </a> 
-<a class="sociales-link" href="https://instagram.com" target="_blank">
-    <i class="bi bi-instagram"></i>
-</a>
+                <a class="sociales-link" href="https://instagram.com" target="_blank">
+                    <i class="bi bi-instagram"></i>                 
+                </a>
             </div>
         </div>
-        <div class="copyright">&copy;Casa Mia 2023.Buenos Aires,Argentina</div>
+          <p class="copyright">&copy;Casa Mia 2023.Buenos Aires,Argentina</p>
     </footer>
     <!--Termina footer-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

@@ -4,14 +4,6 @@
     text-align: center;
     padding: 5rem;
     font-weight: bold;
-    .cuadros-1 {
-        display: flex;
-        padding: 60px;
-        gap:2rem;
-        flex: 1;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-            }
     
         .cuadro2 {
       
@@ -46,6 +38,7 @@
             border-radius: 12px;
             padding: 10px;
             border-color:$colorPrincipal;
+            color: $colorPimer;
             &:hover {
                 background-color: $colorPrincipal;
                 color: $colorPimer;

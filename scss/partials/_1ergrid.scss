@@ -4,7 +4,6 @@
     gap: 30px;
   
     .cuadro1 {
-  
         display: flex;
         border-radius: 0%;
         overflow: hidden;
@@ -21,11 +20,12 @@
       .boton-link {
         text-decoration: none;
         background-color:$colorPrincipal;
-        border-color:$colorPimer;
-      }
-      .boton-link:hover {
+        border-color:$colorSengundo;
+      
+      &:hover {
         background-color:$colorPimer;
         color:$colorPrincipal;
+      }
       }
       }
   

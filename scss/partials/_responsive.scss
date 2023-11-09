@@ -114,7 +114,7 @@
 	.navbar-collapse {
 	  top: 101%;
 	}
-	}
+	
 	.items{
 		color: $colorPimer;
 		font-size: 4rem;
@@ -126,28 +126,26 @@
 			.texto{
 				margin: 10px;}
 		}
-	.cuadros-1 {
-	  padding: 2rem;
-	  gap: 1rem;
-	  display: grid;
-	  grid-template-columns: 1fr;
-	  
-	  .cuadro2 {
-		display: flex;
-		border-radius: 0%;
+		.cuadros-grid{
+         display: grid;
+         grid-template-columns: 1fr ;
+		}
+		.cuadro-grid{
+		display: grid;
+		gap: 1rem;
+		margin: 10px;
 		background-color:$colorSengundo;
-	   flex-direction: column;
-	   gap: 1px;
-	   flex: 1;
-   }
-	  }
+		}
 
 	.servicios {
 	  display: grid;
 	  grid-template-columns: 1fr 1fr;
 	  padding: 1rem;
 	}
+	.contacto{
+		max-width: 100%;
+	}
 	.copyright {
 	  height: 1px;
 	}
-  
+  }

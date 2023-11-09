@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title> Contacto | Arquitectura-Diseño exterior e interior | Casa Mia</title>
     <link rel="shortcut icon" href="../imagenes/loguito.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-   <link rel="stylesheet" href="../css/main.css">
+   <meta name="description" content="Contacnos por cualquier consulta en nuestras redes.
+   Envía y recibe rápidamente mensajes desde nuestras redes, estamos para contestar cualquier consulta respecto a nuestros productos.mandanos mail y  recibi nuestras últimas novedades ,seguinos en nuestras redes y segui las novedades dia a dia, nuestros nuevos productos, precios, ofertas, combos, cada semana sorteamos un producto, para participar de los sorteos solo tenes que seguirnos en las redes y estaras participando. Se el primero en recibir las novedades.
+   Contacnos para consultar sobre las reformaciones, remodelaciones, y  detallarnos el trabajo requerido para su hogar y le hacemos un presupuesto estimado, que le interesa saber sobre nuestros proyectos, que tipo de trabajo requiere y nos pondremos en contacto para seguir con los detalles requeridos, hacemos diseños interiores y diseños exteriores que lo pueden ver en la pagina y en la parte de productos,hay una sección donde podes elegir y consultar el producto por mail,si queres mas información mandanos mensaje por la casilla.
+   Estamos atentos a sus preguntas no dude en escribirnos.Estamos contestando las 24 horas,las dudas que le surge.">
+   <meta name="keywords" content="contactar casamia, llamar a casa mia, redes sociales, whatsapp, facebook, instagram, seguir en redes, consultar precio, mail, mensaje">
+   <link rel="stylesheet" href="../scss/main.css">
 </head>
 <body>
      <!--Empieza barra de manu-->
      <header class="encabezados">
         <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html"><img src="../imagenes/loguito.png" class="logo"""></a>
+              <a class="navbar-brand" href="../index.html"><img src="../imagenes/loguito.png" alt="imagen de logo" class="logo"""></a>
               <div class="nombre-logo">
     <a href="../index.html" class="casa-mia">Casa Mia</a>
               </div>
@@ -45,7 +50,6 @@
                   <li class="nav-item">
                     <a class="nav-link"><a href="./Contacto.html" class="menu-link">Contacto</a></a>
                   </li>
-                
                 </ul>
               </div>
             </div>
@@ -53,33 +57,30 @@
         </header>
         <!--Termina barra de menu-->
     <!--Empieza Contacto-->
+    <section class="encabezado">
 <h1 class="items">Contacto</h1>
+</section>
 <section class="contactos">
+  <div class="contacto">
     <form>
-        <div class="formulario">
-<input type="text" placeholder="Ingrese su nombre" required>
+        <label for="name">Nombre</label>
+        <input type="text" class="formulario">
+        <label for="apellido">Apellido</label>
+        <input type="text" class="formulario">
+        <label for="email">Correo Electronico</label>
+        <input type="email" class="formulario" required>
+        <label for="telefono">Telefono</label>
+        <input type="tel" class="formulario">
+        <label for="mensaje">Mensaje</label>
+<textarea name="Mensaje" class="mensajes" cols="30" rows="10" placeholder="Dejanos tu consulta"></textarea>
+<input class="enviar" type="submit" value="Enviar">
         </div>
-        <div class="formulario">
-            <input type="text" placeholder="Ingrese su apellido" required>
-        </div>
-        <div class="formulario">
-            <input type="text" placeholder="Ingrese su mail" required>
-        </div>
-        <div class="formulario">
-<textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Dejanos tu consulta"></textarea>
-        </div>
-        <div class="formulario">
-<input type="submit" value="Enviar" class="value">
-        </div>
-        <div class="formulario">
+        <div class="mapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13134.703937292254!2d-58.47404294458009!3d-34.612353999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca1b959e8e3b%3A0x4f7800abdf11c279!2zQ2Fmw6kgTWFydMOtbmV6!5e0!3m2!1ses-419!2sar!4v1694750139843!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </form>
-
-
-
+  </div>
 </section>
-
     <!--Termina Contacto-->
         <!--Empieza footer-->
         <footer class="pie-pagina">
@@ -96,7 +97,9 @@
     </a>
                 </div>
             </div>
-            <div class="copyright">&copy;Casa Mia 2023.Buenos Aires,Argentina</div>
+            
+              <p class="copyright">&copy;Casa Mia 2023.Buenos Aires,Argentina</p>
+            
         </footer>
         <!--Termina footer-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

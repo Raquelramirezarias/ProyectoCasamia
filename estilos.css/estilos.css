@@ -494,6 +494,9 @@
     grid-template-columns: 1fr 1fr;
     padding: 1rem;
   }
+  .contacto {
+    max-width: 100%;
+  }
   .copyright {
     height: 1px;
   }

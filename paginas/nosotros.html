@@ -1,21 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
+    <title>Nosotros | diseñadoras y arquitectos | Casa Mia</title>
     <link rel="shortcut icon" href="../imagenes/loguito.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-<link rel="stylesheet" href="../css/main.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <meta name="description" content="Conoce a cada uno de los integrantes de nuestra empresa
+   Ofrecemos oportunidades para el desarrollo profesional dentro de un ambiente dinámico e innovador. Estamos convencidos de que el equipo humano y profesional es esencial para brindar un servicio de calidad a nuestros clientes y lo que aporta un valor agregado a nuestros proyectos.
+   Somos personas trabajando para personas. Sabemos que en todo desafio encaramos encontraremos  dificultades pero estaremos ahi cuando aparezcan. Trajando codo a codo para hacer de cada proyecto una obra unica.
+   Contratando arquitectos, diseñadoras/es profesionales, estas contratando un equipo de profesionales, mano de obra especializada, materiales de primera calidad y el valor de saber que el proyecto esta pensado específicamente para vos. 
+   Trabajamos a diario tendiendo lazos con los mejores profesionales, empresas y proveedores del mercado.
+   Ofrecemos a nuestros clientes el mejor asesoramiento profesional, brindando soluciones estéticas, confiables y eficientes frente a cada necesidad.
+   Contamos con un amplio equipo de colaboradores y el seguimiento permanente de nuestros profesionales en cada etapa del proceso, están comprometidos con cada etapa de los proyectos.
+   ">
+   <meta name="keywords" content="Profesionales diseñadores, arquitectos, diseñador interior, diseñador exterior, personal de diseño, graduados arquitectura, asesores de diseño, especialistas  de diseño ,contratistas, empresa de diseño. " >
+<link rel="stylesheet" href="../scss/main.css">
 </head>
 <body>
     <!--Empieza barra de manu-->
     <header class="encabezados">
         <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html"><img src="../imagenes/loguito.png" class="logo"></a>
+              <a class="navbar-brand" href="../index.html"><img src="../imagenes/loguito.png" alt="imagen de logo" class="logo"></a>
               <div class="nombre-logo">
     <a href="../index.html" class="casa-mia">Casa Mia</a>
               </div>
@@ -53,34 +63,36 @@
         <!--Termina barra de menu-->
 
     <!--Empieza nosotros-->
-    <div>
+    <section class="encabezado">
         <h1 class="items">
         Nosotros
         </h1>
-                </div>
-                <section class="cuadros-1">
-        <div class="cuadro2">
-            <img src="../imagenes/persona1.avif" alt="imagen de persona" class="cuadrito">
-            <div class="cuadro3">
+      </section>       
+                <section class="cuadros-grid">
+        <div class="cuadro-grid">
+            <img src="../imagenes/persona1.avif" alt="imagen de una chica " class="cuadrito" data-aos="zoom-in-up">
+              <section class="encabezado">
                 <h2 class="Nombre">Ana Maria Lopez</h2>
+              </section>
                 <p class="textos">Nacionalidad argentina,tiene 28 años y vive en la Provincia de Cordoba, con su gagita Nina.Es diseñadora de interiores hace tres años,su pasatiempo favorito es correr por el parque,su sueño es ir a vivir a Canada.</p>
-            </div>
+        
         </div>
-        <div class="cuadro2">
-            <img src="../imagenes/persona2.webp" alt="imagen de persona" class="cuadrito">
-            <div class="cuadro3">
+        <div class="cuadro-grid">
+            <img src="../imagenes/persona2.webp" alt="imagen de una señora" class="cuadrito"data-aos="zoom-in-up">
+            <section class="encabezado">
                 <h2 class="Nombre">Flor Garcia</h2>
-                <p class="textos">Nacionalidad Brasilera,tiene 38 años y vive en Uruguay Montevideo hace 2 meses,junto a su marido,es diseñadora de exteriores hace 10 años,su pasatiempo favorito es bailar bachata,su sueño es conocer Paris.
+              </section>
+                <p class="textos">Nacionalidad brasilera,tiene 38 años y vive en Uruguay Montevideo hace 2 meses,junto a su marido,es diseñadora de exteriores hace 10 años,su pasatiempo favorito es bailar bachata,su sueño es conocer Paris.
                 </p>
-            </div>
         </div>
-        <div class="cuadro2">
-            <img src="../imagenes/persona3.jpg" alt="imagen de persona" class="cuadrito">
-            <div class="cuadro3">
+        <div class="cuadro-grid">
+            <img src="../imagenes/persona3.jpg" alt="imagen de chico" class="cuadrito"data-aos="zoom-in-up">
+            <section class="encabezado">
                 <h2 class="Nombre">Martin Fernandez</h2>
-                <p class="textos">Nacionalidad Cubano,tiene 30 años y vive en España hace 10 años,es soltero y no tine mascotas,es arquitecto hace 5 años,su pasatiempo favorito es juntarse con sus amigos,su sueño es tener su propia empresa.
+              </section>
+                <p class="textos">Nacionalidad cubano,tiene 30 años y vive en España hace 10 años,es soltero y no tine mascotas,es arquitecto hace 5 años,su pasatiempo favorito es juntarse con sus amigos,su sueño es tener su propia empresa.
                 </p>
-            </div>
+              
         </div>
                 </section>
                 <!--Termina nosotros-->
@@ -98,9 +110,15 @@
                 <i class="bi bi-instagram"></i></a>
                         </div>
                     </div>
-                    <div class="copyright">&copy;Casa Mia 2023.Buenos Aires,Argentina</div>
+                    
+                      <p class="copyright">&copy;Casa Mia 2023.Buenos Aires,Argentina</p>
+                    
                 </footer>
                 <!--Termina footer-->
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+                <script>
+                  AOS.init();
+                </script>
+              </body>
 </html>

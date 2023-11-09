@@ -1,32 +1,29 @@
-.items {
-    font-size: 4rem;
-    color:$colorPimer;
-    text-align: center;
-    padding: 5rem;
-    font-weight: bold;
-  .cuadros-1 {
-    display: flex;
-    padding: 60px;
-    gap:2rem;
-    flex: 1;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
+.cuadros-grid{
+      display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+      
+      .cuadro-grid{
+        margin: 10px;
+      }
 }
-    .cuadro2 {
-        display: flex;
-        border-radius: 0%;
-        background-color:$colorSengundo;
-        flex-direction: column;
-        gap: 1px;
-        flex: 1;
-    }
+.cuadro2 {
+     display: flex;
+     border-radius: 0%;
+     background-color:$colorSengundo;
+    flex-direction: column;
+    gap: 1px;
+    flex: 1;
+}
+
     .cuadrito {
         width:100%;
         flex: 1;
         margin: 0;
         padding: 0;
         vertical-align: middle;
-    }
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     }
     .cuadro3 {
     padding-inline: 20px;
