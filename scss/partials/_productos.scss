@@ -24,8 +24,9 @@
         }
         .cuadro3 {
         padding-inline: 20px;
-        .Nombre {
+        .Nombre-p{
             font-family:$tipografiaGeneral; 
+            text-align: center;
         }
         .textos {
             font-style:$tipografiaPrimer;
@@ -45,6 +46,9 @@
                
             }
         }
-        
-
+}
+.boton-produ{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
