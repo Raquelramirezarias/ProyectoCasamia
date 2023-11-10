@@ -117,6 +117,9 @@
 }
 .cuadros .texto-diseño {
   font-family: "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .cuadros .boton-link {
   text-decoration: none;
@@ -126,6 +129,16 @@
 .cuadros .boton-link:hover {
   background-color: black;
   color: white;
+}
+.cuadros .boton-exterior {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cuadros .boton-interior {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cuadros-grid {
@@ -157,6 +170,9 @@
 
 .cuadro3 {
   padding-inline: 20px;
+}
+.cuadro3 .Nombre-p {
+  font-family: italic;
 }
 .cuadro3 .Nombre {
   font-family: italic;
@@ -222,8 +238,9 @@
 .cuadro3 {
   padding-inline: 20px;
 }
-.cuadro3 .Nombre {
+.cuadro3 .Nombre-p {
   font-family: italic;
+  text-align: center;
 }
 .cuadro3 .textos {
   font-style: "Times New Roman", Times, serif;
@@ -241,6 +258,12 @@
 .cuadro3 .ver-link:hover {
   background-color: white;
   color: black;
+}
+
+.boton-produ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .items {
@@ -408,6 +431,12 @@
     padding: 1rem;
     font-size: 95%;
     font-family: italic;
+  }
+  .Nombre {
+    margin: 10px;
+  }
+  .textos {
+    margin: 10px;
   }
   .images {
     width: 100%;
