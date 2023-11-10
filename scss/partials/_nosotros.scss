@@ -27,8 +27,11 @@ grid-template-columns: 1fr 1fr 1fr;
     }
     .cuadro3 {
     padding-inline: 20px;
-    .Nombre {
+    .Nombre-p{
         font-family:$tipografiaGeneral; 
+    }
+    .Nombre{
+        font-family: $tipografiaGeneral;
     }
     .textos {
         font-style:$tipografiaPrimer;
