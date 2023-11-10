@@ -16,7 +16,10 @@
         padding: 1px;
     }
     .texto-diseño {
-        font-family:$tipografiaPrimer;}
+        font-family:$tipografiaPrimer;
+        display: flex;
+        align-items: center;
+        justify-content: center;}
       .boton-link {
         text-decoration: none;
         background-color:$colorPrincipal;
@@ -26,6 +29,16 @@
         background-color:$colorPimer;
         color:$colorPrincipal;
       }
+      }
+      .boton-exterior{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .boton-interior{
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       }
   
